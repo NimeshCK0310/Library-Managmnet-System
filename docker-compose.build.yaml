@@ -1,0 +1,13 @@
+version: "3"
+services:
+    backend:
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        image: /library-system:backend
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        image: /library-system:frontend

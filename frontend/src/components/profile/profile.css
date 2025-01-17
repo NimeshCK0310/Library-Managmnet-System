@@ -1,0 +1,90 @@
+.wrappers {
+    width: 100% !important;
+    background: rgba(0, 4, 0, 0.3) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    padding: 30px 20px !important;
+    flex-direction: row !important;
+}
+.wrappers h1 {
+    text-align: center !important;
+    color: #fff !important;
+    font-size: 40px !important;
+}
+.wrapper-profile {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+.profile-picture {
+    background: url("../../assets/userimg.png") no-repeat !important;
+    background-size: cover !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 10% !important;
+    border: 2px solid #fff !important;
+    overflow: hidden !important;
+}
+.profile-info {
+    margin-left: 20px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.button-section {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+}
+
+.btn {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    margin: 20px 20px !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.logout-profile {
+    background: #ff6709 !important;
+    color: #fff !important;
+}
+.delete-profile {
+    background: #ff0000 !important;
+    color: #fff !important;
+}
+
+.edit-profile {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.wrapper .input-box {
+    position: relative !important;
+    width: 100% !important;
+    height: 50px !important;
+    margin: 30px 0 !important;
+}
+
+.input {
+    width: 100% !important;
+    height: 80% !important;
+    background: transparent !important;
+    outline: none !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 40px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    padding: 20px 45px 20px 20px !important;
+}
+
+.input::placeholder {
+    color: #fff !important;
+    font-size: 18px !important;
+}
